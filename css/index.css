@@ -180,7 +180,7 @@
 
 /*========== main header ====*/
 .main__header {
-    background: url(images/background/bg1-home1.png) no-repeat center center;
+    background: url(/images/background/bg1-home1.png) no-repeat center center;
     background-size: cover;
     transition: background-size 0.3s ease;
 }
