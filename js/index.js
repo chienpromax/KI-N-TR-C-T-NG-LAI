@@ -27,7 +27,12 @@ document.addEventListener("DOMContentLoaded", function () {
     toggler.addEventListener("click", function (e) {
         navbar.classList.toggle("open");
         this.classList.toggle("open");
-        e.stopPropagation();
+        e.stopPropagation(); // Ngăn chặn sự kiện click truyền đến document
+    });
+
+    // Ngăn chặn sự kiện click truyền đến document khi click vào navbar
+    navbar.addEventListener("click", function (e) {
+        e.stopPropagation(); // Ngăn chặn sự kiện click truyền đến document
     });
 
     // Thêm sự kiện click cho document để đóng menu khi nhấn bên ngoài
@@ -38,12 +43,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
 window.onscroll = function() {
     var navbar = document.querySelector('.navbar');
-    if (window.scrollY > 50) {  // Số pixel cuộn để thay đổi màu nền, bạn có thể điều chỉnh
+    if (window.scrollY > 50) {
         navbar.classList.add('scrolled');
     } else {
         navbar.classList.remove('scrolled');
     }
 };
-

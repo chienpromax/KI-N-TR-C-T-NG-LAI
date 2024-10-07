@@ -156,7 +156,7 @@
 @media (max-width: 576px) {
     .carousel-caption h1 {
         padding-top: 100px;
-        font-size: 1.4rem !important;
+        font-size: 1rem !important;
     }
 
     .carousel-caption p {
@@ -194,7 +194,7 @@
 
 @media (max-width: 551px) {
     .main__header {
-        background-size: 800%;
+        background-size: 1000%;
     }
 }
 
