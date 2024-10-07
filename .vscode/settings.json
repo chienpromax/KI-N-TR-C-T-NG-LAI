@@ -1,0 +1,15 @@
+{
+    "explorer.compactFolders": false,
+    "background.useInvertedOpacity": false,
+    "background.backgroundOpacity": [
+        0.5
+    ],
+    "background.fullscreen": {
+
+        "images": [],
+        "opacity": 0.3,
+        "size": "cover",
+        "position": "center",
+        "interval": 0
+    }
+}
