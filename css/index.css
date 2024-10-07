@@ -392,7 +392,7 @@
 }
 
 .main__proces_conten:hover {
-    background-image: url('/static/images/main/imghover.jpg');
+    background-image: url('../images/main/imghover.jpg');
     background-color: transparent;
     transition: background-image 1s ease-in-out, background-color 0.5s ease-in-out;
 }
